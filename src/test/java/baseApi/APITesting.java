@@ -16,7 +16,7 @@ public class APITesting {
         Response response = httpRequest.request(Method.GET, "/Plano");
 
         String responseBody = response.getBody().asString();
-        System.out.println("Response Body is =>  " + responseBody);
+        System.out.println("Response Body is: =>  " + responseBody);
     }
 
 }
